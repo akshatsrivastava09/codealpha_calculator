@@ -1,0 +1,54 @@
+*{   
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{  /*style for the whole window*/
+    background-color: #646867;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{   /*style for the calculator body*/
+    width: 400px;
+    height: 460px;
+    background-color: rgb(4, 4, 4);
+    position: absolute;
+    border: 4px solid rgb(239, 236, 236);
+    border-radius: 8px; 
+ }
+ .main input[type='text'] {  /*style for display screen*/
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 4px 5px;
+    outline: none;
+    font-size: 45px;
+    border: 4px solid rgb(252, 250, 250);
+    display: flex;
+    margin: auto;
+    border-radius: 7px;
+    color: rgb(9, 9, 9);
+ }
+ .btn input[type='button']{  /*style for keys*/
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 7px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    background-color: #191a1a;
+    border-radius: 5px;
+    color: white;
+ }
+ .btn input[type='button']:hover{ /*style for iterative elements*/
+    background-color: rgb(247, 242, 242);
+    color: rgb(19, 19, 19);
+ }
+  
